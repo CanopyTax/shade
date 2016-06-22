@@ -6,3 +6,9 @@ build:
       code: |
         echo "here we go"
         env
+        echo "---"
+        echo "this is a test: 90% coverage!" > $WERCKER_REPORT_MESSAGE_FILE
+        echo 'numbers --'
+        echo '2334' > $WERCKER_REPORT_NUMBERS_FILE
+        echo 'artifacts'
+        echo '--- hello' > $WERCKER_REPORT_ARTIFACTS_DIR/bob.txt
