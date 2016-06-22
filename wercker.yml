@@ -1,0 +1,8 @@
+build:
+  box: canopytax/alpine
+  steps:
+    - script:
+      name: print env
+      code: |
+        echo "here we go"
+        env
